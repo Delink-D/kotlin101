@@ -28,4 +28,14 @@ fun main(args: Array<String>){
         num1
 
     println("The largest number is: $result")
+
+    // string comparison
+    var string1: String = "Delink_"
+    var string2: String = "Delink"
+
+    if(string1 == string2)
+        println("These strings are same")
+    else
+        println("This strings are not same")
+
 }
