@@ -12,7 +12,7 @@ fun main(args: Array<String>){
     mwas.name = "Mwangi"
     println("The second name for this Alien is: ${mwas.name}")
 
-    // suming numbers
+    // summing numbers
     var num1: Int = 5
     var num2: Int = 57
 
@@ -20,7 +20,7 @@ fun main(args: Array<String>){
     println("$num1 + $num2 = $ans")
 
     // if condition
-    //   find the largerst number between two numbers
+    //   find the largest number between two numbers
     var result: Int
     result = if(num1 < num2)
        num2
@@ -42,4 +42,20 @@ fun main(args: Array<String>){
     // in kotlin you are not allowed to assign null values to an abject
     // to assign a null we use a question mark like below
     var stringx: String? = null
+    println(stringx)
+
+    // switch in kotlin
+    // check to find the day of the week from the input num
+    var num: Int = 5
+
+    when(num) {
+        1 -> println("Today is Monday")
+        2 -> println("Today is Tuesday")
+        3 -> println("Today is Wednesday")
+        4 -> println("Today is Thursday")
+        5 -> println("Today is Friday")
+        6 -> println("Today is Saturday")
+        7 -> println("Today is Sunday")
+        else -> println("It's not a day of the week")
+    }
 }
