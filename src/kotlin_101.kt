@@ -11,4 +11,11 @@ fun main(args: Array<String>){
     var mwas = Allien()
     mwas.name = "Mwangi"
     println("The second name for this Alien is: ${mwas.name}")
+
+    // suming numbers
+    var num1: Int = 5
+    var num2: Int = 57
+
+    var ans = num1 + num2
+    println("$num1 + $num2 = $ans")
 }
