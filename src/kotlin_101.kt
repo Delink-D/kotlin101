@@ -1,6 +1,6 @@
 // kotlin main function
 fun main(args: Array<String>){
-    println("Hello from his side")
+    println("Hello! from this Kotlin side")
 
     // from a kotlin class
     var delink = First()
@@ -70,6 +70,8 @@ fun main(args: Array<String>){
     // making use of step to skip numbers
     var numbers2 = 3 .. 33
 
-    for (n in numbers2 step 3)
+    for (n in numbers2.reversed() step 3)
         println("Number: $n")
+
+    println("The count is : ${numbers2.count()}")
 }
