@@ -60,9 +60,16 @@ fun main(args: Array<String>){
     }
 
     // loops - while loop, do while loop, for loop
-    // for loop
+    // for loop 1
     var numbers = 3 .. 33
 
     for (n in numbers)
+        println("Number: $n")
+
+    // for loop 2
+    // making use of step to skip numbers
+    var numbers2 = 3 .. 33
+
+    for (n in numbers2 step 3)
         println("Number: $n")
 }
