@@ -18,4 +18,14 @@ fun main(args: Array<String>){
 
     var ans = num1 + num2
     println("$num1 + $num2 = $ans")
+
+    // if condition
+    //   find the largerst number between two numbers
+    var result: Int = 0
+    if(num1 < num2)
+        result = num2
+    else
+        result = num1
+
+    println("The largest number is: $result")
 }
