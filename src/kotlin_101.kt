@@ -58,4 +58,11 @@ fun main(args: Array<String>){
         7 -> println("Today is Sunday")
         else -> println("It's not a day of the week")
     }
+
+    // loops - while loop, do while loop, for loop
+    // for loop
+    var numbers = 3 .. 33
+
+    for (n in numbers)
+        println("Number: $n")
 }
