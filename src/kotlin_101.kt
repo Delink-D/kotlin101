@@ -38,4 +38,8 @@ fun main(args: Array<String>){
     else
         println("This strings are not same")
 
+    // null handling
+    // in kotlin you are not allowed to assign null values to an abject
+    // to assign a null we use a question mark like below
+    var stringx: String? = null
 }
